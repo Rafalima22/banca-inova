@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request, 'global/home.html')
+    return render(request, 'inova/pages/home.html')
